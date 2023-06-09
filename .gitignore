@@ -1,3 +1,4 @@
 cmaake-build-debug/
 cmaake-build-release/
 .idea/
+.DS_Store
