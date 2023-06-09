@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "JUCE/extras/Build",
+		"source" : "/Users/nesta99/Documents/Nestee/Audio_Development/Main/JUCE/extras/Build"
+	}
+}

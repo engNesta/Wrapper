@@ -1,0 +1,12 @@
+# ninja log v5
+2	100	0	/Users/nesta99/Desktop/Wrapper/cmake-build-debug/JUCE/tools/CMakeFiles/cmake.verify_globs	afd8732523a0525d
+0	1799	1686308706789564772	CMakeFiles/juce_lv2_helper.dir/modules/juce_audio_plugin_client/LV2/juce_LV2TurtleDumpProgram.cpp.o	c7c9d7a97d156bef
+1801	1918	1686308706945129281	juce_lv2_helper	96d1fe9cb0d84684
+9	7607	1686308712594941185	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_data_structures/juce_data_structures.mm.o	480f49a277db0647
+1	11328	1686308716331621774	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/juce_build_tools/juce_build_tools.cpp.o	b6a99b25562f6de4
+0	11555	1686308716558856403	extras/Build/juceaide/CMakeFiles/juceaide.dir/Main.cpp.o	fd50e9444daa28bb
+1	12463	1686308717455717557	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_events/juce_events.mm.o	133fe12fdbd180b5
+3	22086	1686308727047955240	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core/juce_core.mm.o	805437fbd46aa7eb
+7	22176	1686308727151309446	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics.mm.o	16aa5d0098d12b21
+5	41213	1686308746073082284	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_gui_basics/juce_gui_basics.mm.o	9be7dbeaadbe02e6
+41215	43100	1686308748120585774	extras/Build/juceaide/juceaide_artefacts/Debug/juceaide	9c3257c7a917a9f4

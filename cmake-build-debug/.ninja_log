@@ -1,0 +1,20 @@
+# ninja log v5
+1	121	0	/Users/nesta99/Desktop/Wrapper/cmake-build-debug/CMakeFiles/cmake.verify_globs	6d4462b7cccdb09e
+0	39	1686308813451183739	Wrapper_artefacts/Debug/Wrapper.app/Contents/Resources/RecentFilesMenuTemplate.nib	1f9a9148f45cf223
+1	304	1686308813716447276	Wrapper_artefacts/JuceLibraryCode/JuceHeader.h	ef47ba1b80fe326c
+1	304	1686308813716447276	/Users/nesta99/Desktop/Wrapper/cmake-build-debug/Wrapper_artefacts/JuceLibraryCode/JuceHeader.h	ef47ba1b80fe326c
+1	310	1686308813722475287	Wrapper_artefacts/JuceLibraryCode/Wrapper/PkgInfo	d697458fc632e1b
+1	310	1686308813722475287	/Users/nesta99/Desktop/Wrapper/cmake-build-debug/Wrapper_artefacts/JuceLibraryCode/Wrapper/PkgInfo	d697458fc632e1b
+311	4116	1686308817506687187	CMakeFiles/Wrapper.dir/MainComponent.cpp.o	8e9732c51e258c3c
+311	4130	1686308817520787508	CMakeFiles/Wrapper.dir/Main.cpp.o	c840e180b7e9a0f6
+312	5889	1686308819266458397	CMakeFiles/Wrapper.dir/Users/nesta99/Documents/Nestee/Audio_Development/Main/JUCE/modules/juce_events/juce_events.mm.o	dd5ba16d839b4b3f
+4130	7079	1686308820476721742	CMakeFiles/Wrapper.dir/Users/nesta99/Documents/Nestee/Audio_Development/Main/JUCE/modules/juce_data_structures/juce_data_structures.mm.o	d4bc667bd1425c36
+311	12497	1686308825807681740	CMakeFiles/Wrapper.dir/Users/nesta99/Documents/Nestee/Audio_Development/Main/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o	fce92b7a650b1f2b
+312	12748	1686308826083637062	CMakeFiles/Wrapper.dir/Users/nesta99/Documents/Nestee/Audio_Development/Main/JUCE/modules/juce_graphics/juce_graphics.mm.o	17c85077e712bab4
+4122	15578	1686308828954071942	CMakeFiles/Wrapper.dir/Users/nesta99/Documents/Nestee/Audio_Development/Main/JUCE/modules/juce_core/juce_core.mm.o	ebf6d29c2911872a
+312	30109	1686308843432306008	CMakeFiles/Wrapper.dir/Users/nesta99/Documents/Nestee/Audio_Development/Main/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o	5406dc9200e46d9
+30111	31512	1686308844896523833	Wrapper_artefacts/Debug/Wrapper.app/Contents/MacOS/Wrapper	799b8e0e08e82fc4
+2	107	0	/Users/nesta99/Desktop/Wrapper/cmake-build-debug/CMakeFiles/cmake.verify_globs	6d4462b7cccdb09e
+1	108	0	/Users/nesta99/Desktop/Wrapper/cmake-build-debug/CMakeFiles/cmake.verify_globs	6d4462b7cccdb09e
+104	2358	1686308907727970081	CMakeFiles/Wrapper.dir/MainComponent.cpp.o	8e9732c51e258c3c
+2359	3691	1686308909043469021	Wrapper_artefacts/Debug/Wrapper.app/Contents/MacOS/Wrapper	799b8e0e08e82fc4
