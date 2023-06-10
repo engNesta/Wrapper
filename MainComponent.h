@@ -1,6 +1,8 @@
 #pragma once
 
 #include <JuceHeader.h>
+//include the vst3 sdk headers
+#include <juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp>
 
 //==============================================================================
 /*
@@ -25,3 +27,5 @@ private:
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };
+
+
