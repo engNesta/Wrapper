@@ -33,18 +33,34 @@ void MainComponent::resized()
     loadButton.setBounds(getLocalBounds().reduced(20));
 }
 
-void MainComponent::initialiseVST3Hosting() {
-    //
+void MainComponent::initialiseVST3Hosting(File& vst3File) {
+    juce::PluginDescription desc;
+    desc.fileOrIdentifier = vst3File.getFullPathName();
+    desc.pluginFormatName = "VST3";
+    desc.uniqueId = 0;
 
+
+    AudioPluginFormatManager formatManager;
+
+    formatManager.addDefaultFormats();
+
+    std::unique_ptr<juce::AudioPluginInstance> pluginInstance;
+
+    juce::String errorMessage;
+
+    pluginInstance = formatManager.createPluginInstance(desc, 44100.0, 512, errorMessage);
 }
 
-void MainComponent::loadVST3Plugin() {
+
+
+
+void MainComponent::loadVST3Plugin()
+{
     chooser = std::make_unique<juce::FileChooser>("Select a VST3 plugin to load",
                                                   juce::File::getSpecialLocation(juce::File::userHomeDirectory),
                                                   "*.vst3");
 
     auto fileFlags = juce::FileBrowserComponent::canSelectFiles | juce::FileBrowserComponent::openMode;
-
 
     chooser ->launchAsync(fileFlags, [this] (const FileChooser& chooser)
     {
@@ -53,23 +69,19 @@ void MainComponent::loadVST3Plugin() {
         if(vst3File.hasFileExtension(".vst3"))
         {
             loadButton.setButtonText("Correct File");
+            initialiseVST3Hosting(vst3File);
         }
         else
         {
             loadButton.setButtonText("Incorrect File");
         }
-
-
     });
-
 
 }
 
 void MainComponent::buttonClicked(juce::Button *button) {
     if (button == &loadButton) {
-
         button->setButtonText("Loading...");
-
         loadVST3Plugin();
     }
 }
